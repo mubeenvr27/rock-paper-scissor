@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #e09898;
+    background-color: #d88f8f;
 }
 
 #game {
@@ -15,8 +15,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
-
 
 .buttons {
     margin: 20px 0;
@@ -35,17 +33,17 @@ button {
 }
 
 button:hover {
-    background-color: #1b6f1f;
+    background-color: #025a06;
 }
 
 button:disabled {
-    background-color: #837c7c;
+    background-color: #cccccc;
     cursor: not-allowed;
 }
 
 #results {
     margin: 20px 0;
-    font-size: 8px;
+    font-size: 18px;
     min-height: 27px;
 }
 
